@@ -1,0 +1,92 @@
+.modalContainer {
+  background-color: #212529;
+  width: 90%;
+  border: none;
+  border-radius: 4px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modalHeader {
+  height: 30px;
+  background-color: #343b41;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #f8f9fa;
+  font-weight: 700;
+}
+
+.modalHeader button {
+  background-color: inherit;
+  border: none;
+  color: #868e96;
+  font-size: 14px;
+  margin-top: -10px;
+  cursor: pointer;
+}
+
+.modalHeader p {
+  margin-left: 5px;
+}
+
+.modalForm form {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #f8f9fa;
+  font-size: 12px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.modalForm input,
+select {
+  width: 90%;
+  height: 40px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #343b41;
+  color: #f8f9fa;
+  font-size: 12px;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+}
+
+.addButton {
+  font-size: 14px;
+  height: 40px;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #ff577f;
+  border-radius: 4px;
+  border: none;
+  color: #f8f9fa;
+  cursor: pointer;
+}
+
+.addButton:hover {
+  background-color: #ff427f;
+}
+
+.modalForm p {
+  color: #e83f5b;
+}
+
+.modalForm p,
+label {
+  margin-left: 15px;
+}
+
+@media only screen and (min-width: 700px) {
+  .modalContainer {
+    width: 370px;
+    height: 350px;
+    top: 50%;
+  }
+}

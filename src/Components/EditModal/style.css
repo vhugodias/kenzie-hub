@@ -1,0 +1,21 @@
+.containerButtons {
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.submitButton,
+.deleteButton {
+  height: 40px;
+  background-color: #59323f;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+  padding: 0px 22px 0px 22px;
+  cursor: pointer;
+}
+
+.deleteButton {
+  background-color: #868e96;
+}
